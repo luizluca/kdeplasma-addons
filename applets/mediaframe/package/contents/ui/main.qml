@@ -176,7 +176,7 @@ Item {
             visible: hasItems
             anchors.fill: parent
 
-            Image {
+            AnimatedImage {
                 id: bufferImage
 
 
@@ -192,7 +192,7 @@ Item {
                 autoTransform: true
             }
 
-            Image {
+            AnimatedImage {
                 id: frontImage
 
                 anchors.fill: parent
